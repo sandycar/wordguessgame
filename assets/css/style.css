@@ -1,0 +1,37 @@
+
+body{
+	background-image: url(../images/what-the-hex-dark/what-the-hex-dark.png);
+	color:#ffc107;
+}
+img{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	padding-bottom: 20px
+}
+
+.Container{
+	text-align: center;
+	padding: 20px;
+}
+
+.start{
+	border-top: solid 1px red;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.scoreboard{
+	background-image: url(../images/what-the-hex-dark/what-the-hex-dark.png);
+}
+
+.currentWord{
+	border: solid red .5px;
+}
+/*.numGuesses{
+	border: solid red 1px;
+}
+
+.guessed{
+	border: solid red 1px;
+}*/
