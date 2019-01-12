@@ -60,6 +60,10 @@ document.onkeyup= function(keypress){
  document.getElementById('wins').innerHTML = wins;
  document.getElementById('losses').innerHTML = losses;
 
+// Functions for wins and losses tracker
 
+
+if (wordGuessed==currentWord);
+wins++
 
 
