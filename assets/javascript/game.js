@@ -10,7 +10,7 @@ var wins=0;
 
 var losses=0;
 
-var arr=["trumpet", "saxaphone", "guitar", "drums", "microphone","Tenderly", "Stormy Weather", "Ella Fitzgerald", "Louis Armstrong", "New Orleans", "New York City", "Chet Baker", "Miles Davis", "Benny Goodman", "Count Basie", "Paris", "La Vie En Rose", "Summertime", "Cheek to Cheek","St.Louis", "piano", "Unforgettable", "Scat", "Stardust"]
+var arr=["trumpet", "saxaphone", "guitar", "drums", "microphone","Tenderly", "stormyweather", "ellafitzgerald", "louisarmstrong", "neworleans", "newyorkcity", "chetbaker", "milesdavis", "Benny Goodman", "Count Basie", "Paris", "La Vie En Rose", "Summertime", "Cheek to Cheek","St.Louis", "piano", "Unforgettable", "Scat", "Stardust"]
 
 
 // This will randomly select a word after the game is over
@@ -49,11 +49,16 @@ document.onkeyup= function(keypress){
  function wordtoUnderscores(){
  	for ( var k=0; k<chosenWord.length; k++){
  		chosenWord[k]="_";
+ 		if (chosenWord==currentWord){
+	wins++
+	// document.getElementById('wins').innerHTML
+		}
 
  	}
  	// wordUnderscores = chosenWord.join(' ');
 
  		document.getElementById('wordGuessed').innerHTML = chosenWord.join(' ');
+
  		
  }
 
@@ -63,7 +68,7 @@ document.onkeyup= function(keypress){
 // Functions for wins and losses tracker
 
 
-if (wordGuessed==currentWord);
-wins++
+
+
 
 
